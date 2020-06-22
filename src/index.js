@@ -5,6 +5,7 @@ import {Provider} from 'react-redux'
 import tasks from './reducers'
 import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 
 const store = createStore(tasks)
 

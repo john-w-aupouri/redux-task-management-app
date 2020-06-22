@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import TasksPage from './components/TasksPage'
 import { editTask, createTask, deleteTask}  from './actions'
 
-
 function App(props) {
 
   const onStatusChange = (id, status) => {
@@ -19,14 +18,14 @@ function App(props) {
   }
 
   return (
-    <>
+    <div className="app-background">
       <TasksPage 
         tasks={props.tasks} 
         onStatusChange={onStatusChange}
         onCreateTask={onCreateTask}
         onDeleteTask={onDeleteTask}
       />
-    </>
+    </div>
   )
 }
 

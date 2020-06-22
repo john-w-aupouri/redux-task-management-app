@@ -61,13 +61,12 @@ const TasksPage = (props) => {
         <div className="row">
           <div className="col-md-2">
             <button className="btn btn-success m-3" onClick={formToggler}>
-              +
+              <img src={logo} alt="redux-logo" style={{height: "35px", width: "35px"}} />
             </button>
           </div>
           <div className="col-md-10">
             <h2 className="display-4 text-center text-uppercase">
-              <img src={logo} alt="redux-logo" style={{height: "35px", width: "35px", marginRight: "20px"}} />
-              Task Manager
+               Task Manager 
             </h2> 
           </div>
         </div>
@@ -88,7 +87,7 @@ const TasksPage = (props) => {
                 placeholder="Description"
                 onChange={onChangeDescription}
               ></textarea>
-              <button className="btn-primary mt-3">Submit</button>
+              <button className="btn-primary mt-3">Add Task</button>
             </div>
           </form>
         )}
