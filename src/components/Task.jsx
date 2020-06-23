@@ -32,7 +32,7 @@ const Task = (props) => {
         {props.task.description}
       </p>
       <FaTrashAlt 
-        className="float-right m-5" 
+        // className="float-right m-5" 
         style={{color: "red", cursor: "pointer"}}
         onClick={() => onDeleteTask(props.task.id)}
       />

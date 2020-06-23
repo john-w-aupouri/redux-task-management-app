@@ -5,22 +5,40 @@ import { DELETE_TASK } from '../actions/types'
 const initialState = [
   // {
   //   id: 1,
-  //   title: 'Learn ReactJS',
+  //   title: 'ReactJS',
   //   description: 'Let\'s learn ReactJS',
   //   status: "Completed"
   // },
   // {
   //   id: 2,
-  //   title: 'Learn Redux',
+  //   title: 'Redux',
   //   description: 'Let\'s learn Redux',
   //   status: "In Progress"
   // },
   // {
   //   id: 3,
-  //   title: 'Learn GraphQL',
+  //   title: 'GraphQL',
   //   description: 'Let\'s learn GraphQL',
+  //   status: "In Progress"
+  // },
+  // {
+  //   id: 4,
+  //   title: 'React-Context',
+  //   description: 'Let\'s learn React-Context-API',
+  //   status: "Completed"
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Gatsby',
+  //   description: 'Let\'s learn Gatsby',
   //   status: "Unstarted"
-  // }
+  // },
+  // {
+  //   id: 6,
+  //   title: 'Bootstrap',
+  //   description: 'Let\'s learn Bootstrap',
+  //   status: "Completed"
+  // },
 ]
 
 const tasks = (state = {tasks: initialState}, action) => {
